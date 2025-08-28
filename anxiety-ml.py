@@ -1,6 +1,6 @@
 # Libraries
 
-import warnings; warnings.filterwarnings("ignore")
+import warnings.filterwarnings("ignore")
 
 import numpy as np
 import pandas as pd
@@ -17,7 +17,7 @@ from imblearn.over_sampling import SMOTE
 from tensorflow.keras.utils import to_categorical
 from sklearn import linear_model
 
-# ) Load 
+#Load 
 csv_path = "anxiety-2.csv"         
 data = pd.read_csv(csv_path, encoding="utf-8")
 # cleaning 
@@ -182,7 +182,7 @@ for name, model in [("LTCN", ltcn_pipe), ("LogReg", log_pipe), ("XGB", xgb_pipe)
     print(f"  {name} mean:  {round(float(np.mean(kappas)), 4)}")
 
 
-# Final hold-out test
+# Final test
 
 print("\ntest Cohen's Kap:")
 for name, model in [("LTCN", ltcn_pipe), ("LogReg", log_pipe), ("XGB", xgb_pipe)]:
