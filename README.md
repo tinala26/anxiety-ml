@@ -14,13 +14,3 @@ End-to-end machine learning pipeline to predict **GAD_T (Generalized Anxiety Dis
   - Confusion matrices
   - t-SNE visualization
 
-## How to run
-```bash
-pip install -r requirements.txt
-python anxiety-ml.py
-# anxiety-ml
-# anxiety-ml
-# anxiety-ml
-# anxiety-ml
-# anxiety-ml
-# anxiety-ml
