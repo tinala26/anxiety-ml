@@ -5,7 +5,7 @@ End-to-end machine learning pipeline to predict **GAD_T (Generalized Anxiety Dis
 ## What this project includes
 - **Data preprocessing:** missing-value handling, categorical encoding, feature engineering (SWL, SPIN, Degree, etc.).
 - **Models:**
-  - Custom **LTCN Classifier** (Linear Temporal Convolutional Network)
+  - Custom **LTCN Classifier** 
   - **Logistic Regression** (baseline)
   - **XGBoost**
 - **Evaluation:**
